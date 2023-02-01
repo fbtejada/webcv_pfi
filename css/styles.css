@@ -323,7 +323,7 @@ table.left {
     flex-direction: column;
     align-self: stretch;
     /* flex: 1 0 auto; */
-    width: 60%;
+    width: 55%;
     transform: translate(-200px);
     opacity: 0;
     transition: opacity 1s ease, transform 1s ease;
@@ -379,7 +379,7 @@ table.detalles_personales_right td.tag {
 
 /* habilidades */
 table.habilidades_right td.tag {
-    width: 30rem;
+    width: 23rem;
 }
 /* table.habilidades_left {
     flex: none;
@@ -397,7 +397,7 @@ table.experiencia_right td.tag {
 
 /* educacion */
 table.educacion_right td.tag {
-    width: 30rem;
+    width: 26rem;
 }
 /* table.educacion_left {
     flex: none;
