@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/Penrose-dreieck_cadetblue_alfa.png">
+
+  <script src="https://kit.fontawesome.com/c34970a2c3.js" crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/formulario.css">
+
+  <title>Contacto</title>
+</head>
+
+<body>
+  <header id="idheader">
+  </header>
+  <main>
+    <div id="contact">
+
+      <div id="contact-titulo" class="webcv-dark contact-titulo webcv-responsive">
+        <div id="contact-titulo" class="webcv-dark-text">
+          <h1>Contacto</h1>
+          <div id="contact-info" class="contact-info">
+            <p>Para comunicarse conmigo complete el siguiente formulario:</p>
+            <p>Campos requeridos con *.</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact-formulario" class="webcv-clear contact-formulario webcv-responsive">
+        <div id="contact-formulario-text" class="webcv-clear-text">
+          <form action="" id="formulario">
+
+            <div id="contact-formulario-text-datos" class="contact-formulario-text-datos">
+              <h3>Sus datos</h3>
+
+              <!-- Nombre: -->
+              <!-- <p style="padding:0; margin: 0;"  >Nombre:</p> -->
+              <label for="fname">Nombre:*</label><br>
+              <input type="text" id="fname" name="fname" ><br><br>
+
+
+              <label for="lname">Apellido:*</label><br>
+              <input type="text" id="lname" name="lname" ><br><br>
+
+
+              <label for="email"> E-mail:*</label><br>
+              <input type="text" id="email" name="email" ><br><br>
+
+            </div>
+
+            <div id="contact-formulario-text-mensaje" class="contact-formulario-text-mensaje">
+              <h3>Su mensaje</h3>
+
+              <label for="subject"> Tema:</label><br>
+              <input type="text" id="subject" name="subject" ><br><br>
+
+              <label for="message"> Mensaje:*</label><br>
+              <textarea id="message" name="message" placeholder="Escriba su mensaje aquí..."></textarea>
+            </div>
+
+            <div id="contact-formulario-text-confirmacion" class="contact-formulario-text-confirmacion">
+              <h3>Confirmación</h3>
+              <!-- <p></p> -->
+              <input type="checkbox" id="checkbox" name="copia" value=""> ¿Enviar una copia a su e-mail?<br>
+            </div>
+            <!-- Workarround IOS Iphone input border. -->
+            <div id="contact-formulario-text-button" class="contact-formulario-text-button">
+              <!-- <button type="submit"> Enviar</button>  -->
+              <button id="enviar" type="button" onclick="validarFormulario()" value="Enviar">Enviar</button>
+              <button id="borrar" type="reset" onclick="clickAudio.play()">Borrar</button>
+              <span id="error" class="formulario-error"></span>
+            </div>
+            
+          </form>
+        </div>
+        
+        <div id="formulario-image" class="webcv-clear-image contact-formulario-image webcv-responsive-image">
+          <img src="images/envelope.png" alt="sobre">
+        </div>
+      </div>
+    </div>
+    <!-- <div id="formulario-error">
+      <p id="error"></p>
+    </div> -->
+  </main>
+
+  <footer id="idfooter">
+  </footer>
+
+  <script src="./js/header-footer.js"></script>
+  <script src="./js/formulario.js"></script>
+
+</body>
+
+</html>
