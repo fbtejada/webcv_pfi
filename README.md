@@ -57,6 +57,8 @@ Tanto **index.html** como así **formulario.html** fueron maquetadas con Flexbox
 
 ## Comentarios adicionales 
 
+Este sitio usa _vanilla Javascript_. No usa ningún framework como _bootstrap_, ni ninguna otra biblioteca. 
+
 No se envía realmente una copia del mensaje a la dirección indicada en el formulario.
 
 La foto de la persona fue sacada de https://randomuser.me/
