@@ -35,7 +35,11 @@ Fue probado en Firefox y Chrome tanto en Desktop como en Android. Se probó en S
 
 ### Animaciones y transiciones
 
-El logo rota cuando se hace hover. Los iconos del footer transicionan al rojo. Los links del header también transicionan, tanto en el menú normal como en el hamburguesa.
+El logo rota cuando se hace hover. 
+
+La foto de la persona emite destellos.
+
+Los iconos del footer transicionan al rojo. Los links del header también transicionan, tanto en el menú normal como en el hamburguesa.
 
 Las secciones se hacen visibles y trasladan hasta su posicion correcta al entrar en el _viewport_ un 20%. Lo inverso ocurre cuando hay menos de un 20% de intersección con el _viewport_.
 
